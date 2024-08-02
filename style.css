@@ -1,0 +1,58 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container {  
+    display: flex; 
+    align-items: center; 
+}  
+
+.table {  
+    flex: 1; 
+}  
+
+.container-items {
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40vh;
+    margin-right: 30%;
+}
+
+.data {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-left: 300px;
+    margin-top: 10px;
+    border: 40px, white;
+    box-shadow: 1px 1px 5px 5px white;
+}
+
+td {
+    background-color: rgb(55, 55, 55);
+    border: 1px solid black;
+    width: 4vh;
+    height: 4vh;
+}
+
+.game-over {
+    position:fixed;
+    top: 20%;
+    margin-left: 360px;
+}
+
+
